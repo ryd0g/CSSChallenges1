@@ -12,14 +12,29 @@
       /* line height 1.5 */
       /* Color #333 dark gray */
       /* background color #eee light gray */
-      
+    body {
+      font-family: Helvetica;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      background-color: #eee;
+    }  
 
     /* Style the dt (definition title) */
+    dt {
+      font-size: 2em;
+      background-color:steelblue;
+    }
       /* Make the font really big! 2em */
       /* Make the background color light gray #ccc */
       
 
     /* Style the dd (definition) */
+    dd {
+      font-size: 1.5em;
+      background-color:skyblue;
+      margin: 0;
+    }
       /* make the font big 1.5em */
       /* Background color #ddd */
       /* Remove the by setting margin: 0 */
@@ -29,9 +44,15 @@
     /* Style both the dt and dd */
     /* Using the comma groups selectors */
     dt, dd {
+      padding: 0.5em;
       /* Add some space between these elements and their content */
       /* padding: 0.5em */
       
+    }
+
+    header {
+      font-family: Helvetica;
+      text-align: right;
     }
 
     /* Stretch Challenges: 
@@ -46,7 +67,6 @@
     - Change the background color for each row. You want the rows to be 
     light blue with the two rows using a different shade of blue. 
     - Use text-align to move the heading text to the right. 
-
      */
 
   </style>
@@ -68,6 +88,12 @@
 
     <dt><time datetime="2018-03-05">05 March 2018</time></dt>
     <dd>Heavy rain.</dd>
+
+    <dt><time datetime="2018-03-06">06 March 2018</time></dt>
+    <dd>Partially cloudy.</dd>
+
+    <dt><time datetime="2018-03-07">07 March 2018</time></dt>
+    <dd>Sunny and clear.</dd>
   </dl>
 </article>
 
